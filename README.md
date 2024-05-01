@@ -1,4 +1,5 @@
 # Learning-javascript
+Documenting my journey.
 <hr>
 
 ## Value And Variable
