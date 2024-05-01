@@ -4,7 +4,8 @@
 ## Value And Variable
 
 **Value**: a piece of data <br>
-*Example:* console.log("Naz") <br>
+*Example:* 
+```console.log("Naz")``` <br>
 
 **Variable** : It's a box that we can store a value in.
 
