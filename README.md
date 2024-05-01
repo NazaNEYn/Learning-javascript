@@ -65,7 +65,7 @@ Larger integer than the number type can hold.
 *Value has a type, NOT variable*. So variables simply store values that have a type.
 <hr>
 
-## Type of Operator 
+## "Type of" Operator 
 We can use to show the type of a value.
 
 *Example:* <br>
