@@ -5,7 +5,8 @@
 
 **Value**: a piece of data <br>
 *Example:* 
-```console.log("Naz")``` <br>
+```javascript
+console.log("Naz")``` <br>
 
 **Variable** : It's a box that we can store a value in.
 
