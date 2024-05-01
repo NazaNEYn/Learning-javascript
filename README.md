@@ -12,6 +12,7 @@ We can store values into variables. So this way we can reuse them over and over 
 let firstName = "Naz" <br>
 "Naz" is a value and we assigned it to a variable. It's called *declaring a variable*.
 <br>
+<hr>
 
 ## Data Types
 
@@ -62,3 +63,16 @@ Larger integer than the number type can hold.
 <br>
 
 *Value has a type, NOT variable*. So variables simply store values that have a type.
+<hr>
+
+## Type of Operator 
+We can use to show the type of a value.
+
+*Example:* <br>
+constole.log(typeof 'Naz')<br>
+
+## Assigning a New Value
+
+let firstName = 'Naz'<br>
+firstName = 'Ash'<br>
+console.log(firstName)<br>
