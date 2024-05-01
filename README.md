@@ -51,18 +51,26 @@ A value is only primitive when it's not an object.
 7. big int
 
 **Number**: <br>
-let age = 30 
+```javascript
+let age = 30
+```
 
 **Strings**: <br>
+```javascript
 let firstName = "Naz"
+```
 
 **Boolean**: <br>
 It's always either true or false. <br>
+```javascript
 let fullAge = true
+```
 
 **Undefined**:<br>
 A value hasn't been defined for the variale (empty value) <br>
+```javascript
 let age;
+```
 
 **Null**: <br>
 Empty value
@@ -82,10 +90,14 @@ Larger integer than the number type can hold.
 We can use to show the type of a value.
 
 *Example:* <br>
-constole.log(typeof 'Naz')<br>
+```javascript
+constole.log(typeof 'Naz')
+```
 
 ## Assigning a New Value
 
-let firstName = 'Naz'<br>
-firstName = 'Ash'<br>
-console.log(firstName)<br>
+```javascript
+let firstName = 'Naz'
+firstName = 'Ash'
+console.log(firstName)
+```
