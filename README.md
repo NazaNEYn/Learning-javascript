@@ -1,4 +1,7 @@
 # Learning-javascript
+<hr>
+
+## Value And Variable
 
 Value: a piece of data <br>
 *Example:* console.log("Naz") <br>
