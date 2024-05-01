@@ -38,3 +38,27 @@ A value is only primitive when it's not an object.
 
 **Number**: <br>
 let age = 30 
+
+**Strings**: <br>
+let firstName = "Naz"
+
+**Boolean**: <br>
+It's always either true or false. <br>
+let fullAge = true
+
+**Undefined**:<br>
+A value hasn't been defined for the variale (empty value) <br>
+let age;
+
+**Null**: <br>
+Empty value
+
+**Symbol**: <br>
+Value that is unique and can not be changed.
+
+**Big int**: <br>
+Larger integer than the number type can hold.
+<br>
+<br>
+
+*Value has a type, NOT variable*. So variables simply store values that have a type.
