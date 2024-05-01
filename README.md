@@ -23,14 +23,16 @@ let firstName = "Naz"
 ## Data Types
 
 Evey value is either:
-1. Object : <br>
+1. Object : 
+```javascript
 let me  { <br>
-        name: "Naz" <br>
+        name: "Naz" 
 }
+```
 
-2. Primitive : <br> 
-let firstName = "Naz" <br>
-let age = 30 
+2. Primitive : 
+```let firstName = "Naz"```
+```let age = 30 ```
 
 A value is only primitive when it's not an object.
 
