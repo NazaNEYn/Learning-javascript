@@ -245,3 +245,18 @@ Read about other assignments [here](https://www.w3schools.com/js/js_assignment.a
 
 ## Comparison Operators
 
+We use comparison operators to produce `boolean` values.
+
+```javascript
+const ageMax = 25
+const ageDavid = 29
+
+console.log( ageDavid > ageMax) // true
+```
+
+
+Read more [here](https://www.w3schools.com/js/js_comparisons.asp)
+
+<br>
+<br>
+
