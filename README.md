@@ -123,7 +123,8 @@ let birthYear = 1995
 
  * We can not declare empty `const` variables.
 `// const job; this is illegal`
-
+<br>
+<br>
 
 **When to use `let` and `const`?**
 
