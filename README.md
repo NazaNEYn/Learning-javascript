@@ -222,7 +222,23 @@ fullName += ' Ash' // 'Naz' + ' Ash'
 console.log(fullName)
 // Result : Naz Ash
 ```
+** ++ Operator**
 
-Read More [here](https://www.w3schools.com/js/js_assignment.asp)
+```javascript
+let x = 8
+x++ // x = x + 1 = 9
+console.log(x)
+```
+
+** -- Operator**
+
+```javascript
+let x = 8
+x-- // x = x - 1 = 7
+console.log(x)
+```
+
+
+Read about other assignments [here](https://www.w3schools.com/js/js_assignment.asp)
 <br>
 <br>
