@@ -136,3 +136,11 @@ it's similiar to `let` on the surface but they're different.
 It's best practice to alsways use `const` by default and `let` only when you are really sure that the variables needs to change at some point in the future.<br>
 
 *For example*: Birth year doesn't need to change so you should use `const`
+
+<hr>
+
+# Basic Operators
+
+**Operator**: It allows us to transfer values or combine multiple values and do all kinds of work with values.<br>
+
+### Mathematical/Arthimetic Operators :
