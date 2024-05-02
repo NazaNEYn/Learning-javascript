@@ -123,6 +123,11 @@ let birthYear = 1995
 
  * We can not declare empty `const` variables.
 `// const job; this is illegal`
+
+
+**3. var**: <br>
+`var` is the old way of defining variables and it shouldn't be used anymore.<br>
+it's similiar to `let` on the surface but they're different.
 <br>
 <br>
 
