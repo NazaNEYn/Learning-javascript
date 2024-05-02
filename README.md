@@ -102,3 +102,23 @@ let firstName = 'Naz'
 firstName = 'Ash'
 console.log(firstName)
 ```
+
+## Let, conts, var
+
+1. Let : <br>
+We1. Let : <br>
+We use the `let` keyword to declare variables that can change later. So basically during the execution. 
+
+```javascript
+let age = 30
+age = 30
+```
+
+2. const : <br>
+We use the `const` keyword to declare variables that are not supposed to change at any point in the future.
+
+```javascript
+let birthYear = 1995
+```
+
+* We can not declare empty `const` variables.
