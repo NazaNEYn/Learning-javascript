@@ -19,6 +19,15 @@ let firstName = "Naz"
 ```
 "Naz" is a value and we assigned it to a variable. It's called *declaring a variable*.
 <br>
+<br>
+
+* We can define two variables at the same time :
+
+```javascript
+let x, y;
+// We declared two empty values
+```
+
 <hr>
 
 # Data Types
@@ -259,4 +268,8 @@ Read more [here](https://www.w3schools.com/js/js_comparisons.asp)
 
 <br>
 <br>
+
+## Operator precedence
+
+Check [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence#table) table out for more info
 
