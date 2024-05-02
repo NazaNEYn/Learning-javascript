@@ -144,3 +144,42 @@ It's best practice to alsways use `const` by default and `let` only when you are
 **Operator**: It allows us to transfer values or combine multiple values and do all kinds of work with values.<br>
 
 ### Mathematical/Arthimetic Operators :
+
+# Basic Operators
+
+**Operator**: It allows us to transfer values or combine multiple values and do all kinds of work with values.<br>
+
+### Mathematical/Arthimetic Operators :
+
+**1. addition operator** <br>
+The addition operator (+) adds numbers
+
+```javascript
+const age = 25 + 5
+```
+
+**2. subtraction operator** <br>
+The subtraction operator (-) subtracts numbers.
+
+```javascript
+const age = 25 + 5
+```
+
+**3. multiplication operator** <br>
+The multiplication operator (*) multiplies numbers.
+
+```javascript
+const age = 25 * 5
+```
+
+**4. division operator**
+The division operator (/) divides numbers.<br>
+
+```javascript
+const age = 25 / 5
+```
+
+<br>
+
+Read more [here](https://www.w3schools.com/js/js_arithmetic.asp).
+
