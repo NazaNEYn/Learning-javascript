@@ -1,5 +1,5 @@
 # Learning-javascript
-Documenting my journey.
+Taking notes from Jonas Schmedtmann's Javascript course.
 <hr>
 
 ## Value And Variable
