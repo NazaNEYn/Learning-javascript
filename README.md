@@ -2,7 +2,7 @@
 Taking notes from Jonas Schmedtmann's [Javascript course](https://www.udemy.com/course/the-complete-javascript-course/).
 <hr>
 
-## Value And Variable
+# Value And Variable
 
 **Value**: a piece of data <br>
 
@@ -21,7 +21,7 @@ let firstName = "Naz"
 <br>
 <hr>
 
-## Data Types
+# Data Types
 
 Evey value is either:
 1. Object : 
@@ -42,7 +42,7 @@ let age = 30
 
 A value is only primitive when it's not an object.
 
-### Primitive Data Types :
+## Primitive Data Types :
 1. number  
 2. string
 3. boolean
@@ -87,15 +87,15 @@ Larger integer than the number type can hold.
 *Value has a type, NOT variable*. So variables simply store values that have a type.
 <hr>
 
-## "Type of" Operator 
-We can use to show the type of a value.
+# "Type of" Operator 
+We can use `type of` to show the type of a value.
 
 *Example:* <br>
 ```javascript
 constole.log(typeof 'Naz')
 ```
 
-## Assigning a New Value
+# Assigning a New Value
 
 ```javascript
 let firstName = 'Naz'
@@ -103,7 +103,7 @@ firstName = 'Ash'
 console.log(firstName)
 ```
 
-## Let, conts, var
+# Let, conts, var
 
 **1. Let** : <br>
 We1. Let : <br>
@@ -131,7 +131,7 @@ it's similiar to `let` on the surface but they're different.
 <br>
 <br>
 
-**When to use `let` and `const`?**
+## When to use `let` and `const`?
 
 It's best practice to alsways use `const` by default and `let` only when you are really sure that the variables needs to change at some point in the future.<br>
 
