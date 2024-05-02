@@ -174,9 +174,25 @@ const age = 25 * 5
 
 **4. division operator**
 The division operator (/) divides numbers.<br>
+<br>
 
+**How to add space between variablea**
 ```javascript
-const age = 25 / 5
+const firstName = 'Naz'
+const lastName  = 'Ash'
+
+console.log(firstName + lastName)
+
+// Result = NazAsh
+
+
+// How to fix it
+const firstName = 'Naz'
+const lastName  = 'Ash'
+
+console.log(firstName + ' ' + lastName)
+
+// Result = Naz Ash
 ```
 
 <br>
