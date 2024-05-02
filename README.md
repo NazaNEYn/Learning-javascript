@@ -222,7 +222,7 @@ fullName += ' Ash' // 'Naz' + ' Ash'
 console.log(fullName)
 // Result : Naz Ash
 ```
-** ++ Operator**
+**++ Operator**
 
 ```javascript
 let x = 8
@@ -230,7 +230,7 @@ x++ // x = x + 1 = 9
 console.log(x)
 ```
 
-** -- Operator**
+**-- Operator**
 
 ```javascript
 let x = 8
@@ -242,3 +242,6 @@ console.log(x)
 Read about other assignments [here](https://www.w3schools.com/js/js_assignment.asp)
 <br>
 <br>
+
+## Comparison Operators
+
