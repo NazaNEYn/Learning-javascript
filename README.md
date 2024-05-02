@@ -121,6 +121,12 @@ We use the `const` keyword to declare variables that are not supposed to change 
 let birthYear = 1995
 ```
 
-* We can not declare empty `const` variables.
-  * We can not declare empty `const` variables.
+ * We can not declare empty `const` variables.
 `// const job; this is illegal`
+
+
+**When to use `let` and `const`?**
+
+It's best practice to alsways use `const` by default and `let` only when you are really sure that the variables needs to change at some point in the future.<br>
+
+*For example*: Birth year doesn't need to change so you should use `const`
