@@ -149,7 +149,7 @@ It's best practice to alsways use `const` by default and `let` only when you are
 
 **Operator**: It allows us to transfer values or combine multiple values and do all kinds of work with values.<br>
 
-### Mathematical/Arthimetic Operators :
+## Mathematical/Arthimetic Operators :
 
 **1. addition operator** <br>
 The addition operator (+) adds numbers
@@ -174,9 +174,11 @@ const age = 25 * 5
 
 **4. division operator**
 The division operator (/) divides numbers.<br>
-<br>
+<br><br>
 
-**How to add space between variablea**
+Read more [here](https://www.w3schools.com/js/js_arithmetic.asp).
+
+### How to add space between variablea
 ```javascript
 const firstName = 'Naz'
 const lastName  = 'Ash'
@@ -194,8 +196,22 @@ console.log(firstName + ' ' + lastName)
 
 // Result = Naz Ash
 ```
-
 <br>
 
-Read more [here](https://www.w3schools.com/js/js_arithmetic.asp).
+## Assignment Operators
 
+**The Simple Assignment Operator (=)**
+
+*Example*:
+```javascript
+let x = 5 + 5 // 15
+
+// We have two operators here : = and +
+```
+
+**The Addition Assignment Operator (+=)**
+
+```javascript
+let x = 10 + 5;
+x += 5; // x = x + 5 or x = 15 + 5
+```
