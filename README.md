@@ -1,5 +1,5 @@
 # Learning-javascript
-Taking notes from Jonas Schmedtmann's Javascript course.
+Taking notes from Jonas Schmedtmann's [Javascript course](https://www.udemy.com/course/the-complete-javascript-course/).
 <hr>
 
 ## Value And Variable
