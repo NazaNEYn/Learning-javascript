@@ -174,9 +174,10 @@ const age = 25 * 5
 
 **4. division operator**
 The division operator (/) divides numbers.<br>
-<br><br>
+<br>
 
 Read more [here](https://www.w3schools.com/js/js_arithmetic.asp).
+<br>
 
 ### How to add space between variablea
 ```javascript
@@ -215,3 +216,13 @@ let x = 5 + 5 // 15
 let x = 10 + 5;
 x += 5; // x = x + 5 or x = 15 + 5
 ```
+```javascript
+let fullName = 'Naz'
+fullName += ' Ash' // 'Naz' + ' Ash'
+console.log(fullName)
+// Result : Naz Ash
+```
+
+Read More [here](https://www.w3schools.com/js/js_assignment.asp)
+<br>
+<br>
