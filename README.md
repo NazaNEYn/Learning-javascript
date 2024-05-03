@@ -353,3 +353,31 @@ if (age >= 18) {
 <br>
 
 * Any variable that we declare inside the block will not be accessible outside of the code block.
+
+<hr>
+
+# Type Conversion And Coercion
+
+**Conversion**:<br>
+When we manually convert from one type to another.<br>
+
+**Coercion**: <br>
+When javascript automatically converts types behind the scenes for us. <br>
+
+## Type Conversion
+
+*Example*
+
+```javascript
+const year = "2024";
+console.log(year + 5); // 20245
+```
+
+It doesn't automatically conver the string `("2024")` into number type.<br>
+We need to convert it by `Number()` function.<br>
+
+```javascript
+const year = "2024";
+console.log(Number(year) + 5); // 2029
+
+```
