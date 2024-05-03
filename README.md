@@ -279,6 +279,9 @@ Check [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/O
 
 ## Template Literals
 
+A template literal can assemble multiple pieces into one final string.<br>
+
+ 
 ```javascript
 const firstName = 'Naz'
 const birthYear = 1993
@@ -287,16 +290,44 @@ const age = currentYear - birthYear
 
 const bio = "I'm " + firstName + "." + "I'm " + age + " old"
 
-console.log(bio) // I'm Naz.I'm 31 old
+console.log(bio) // I'm Naz.I'm 84 old
 ```
+<br>
 
-## Template Literals
-
-
-A template literal can assemble multiple pieces into one final string.<br>
 To write a temple literal we use "backticks" (```). <br>
 The single or double quote won't work.
 
 ```javascript
 const variable = ` ${variable} `
+```
+
+Let'd fix our code by using template literal :
+
+```javascript
+const firstName = 'Naz'
+const birthYear = 1993
+const currentYear = 2077
+const age = currentYear - birthYear
+
+const bio = `I'm ${firstName}. I'm ${age} years old.`
+
+console.log(bio) // I'm Naz. I'm 84 years old.
+```
+<br>
+You can also write multiline string :<br>
+
+you could write multiple strings in the old javascript by using `\n\` which means a new line:
+
+```javascript
+console.log(`line one \n\
+line two \n\
+line three`)
+```
+
+But with modern javascript we can simplly hit `enter` and write a new line:
+
+```javascript
+console.log(`line one
+line two
+line three`)
 ```
