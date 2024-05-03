@@ -332,8 +332,11 @@ console.log(`line one
 line two
 line three`)
 ```
+<hr>
 
-## If / Else Statement 
+# If / Else Statement 
+
+If the `if` statement is true, then first code block will be executed and if it's false, then the `else` block will be executed.
 
 ```javascript
 const age = 17;
@@ -341,8 +344,12 @@ const age = 17;
 if (age >= 18) {
   console.log("Max is old enough to get a driver's license");
 } else {
-  console.log("Max is NOT old enough to get a driver's license");
+  const yearsLeft = 18 - age;
+  console.log(`Max is too young. Wait ${yearsLeft} more year(s)`);
 }
 
-// Max is NOT old enough to get a driver's license
+// Max is too young. Wait 1 more year(s)
 ```
+<br>
+
+* Any variable that we declare inside the block will not be accessible outside of the code block.
