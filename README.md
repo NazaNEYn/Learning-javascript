@@ -314,7 +314,7 @@ const bio = `I'm ${firstName}. I'm ${age} years old.`
 console.log(bio) // I'm Naz. I'm 84 years old.
 ```
 <br>
-You can also write multiline string :<br>
+**You can also write multiline string** :<br>
 <br>
 
 you could write multiple strings in the old javascript by using `\n\` which means a new line:
@@ -331,4 +331,18 @@ But with modern javascript we can simplly hit `enter` and write a new line:
 console.log(`line one
 line two
 line three`)
+```
+
+## If / Else Statement 
+
+```javascript
+const age = 17;
+
+if (age >= 18) {
+  console.log("Max is old enough to get a driver's license");
+} else {
+  console.log("Max is NOT old enough to get a driver's license");
+}
+
+// Max is NOT old enough to get a driver's license
 ```
