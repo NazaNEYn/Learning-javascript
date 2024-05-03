@@ -273,3 +273,20 @@ Read more [here](https://www.w3schools.com/js/js_comparisons.asp)
 
 Check [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence#table) table out for more info
 
+<hr>
+
+# Strings 
+
+## Template Literals
+
+```javascript
+const firstName = 'Naz'
+const birthYear = 1993
+const currentYear = 2077
+const age = currentYear - birthYear
+
+const bio = "I'm " + firstName + "." + "I'm " + age + " old"
+
+console.log(bio) // I'm Naz.I'm 31 old
+```
+
