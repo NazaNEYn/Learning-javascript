@@ -290,3 +290,13 @@ const bio = "I'm " + firstName + "." + "I'm " + age + " old"
 console.log(bio) // I'm Naz.I'm 31 old
 ```
 
+## Template Literals
+
+
+A template literal can assemble multiple pieces into one final string.<br>
+To write a temple literal we use "backticks" (```). <br>
+The single or double quote won't work.
+
+```javascript
+const variable = ` ${variable} `
+```
