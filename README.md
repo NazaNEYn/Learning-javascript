@@ -315,6 +315,7 @@ console.log(bio) // I'm Naz. I'm 84 years old.
 ```
 <br>
 You can also write multiline string :<br>
+<br>
 
 you could write multiple strings in the old javascript by using `\n\` which means a new line:
 
