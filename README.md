@@ -391,10 +391,22 @@ console.log(Number(year) + 5); // 2029
 ## Type Coercion 
 Type Coercion happens whenever an opartor is dealing with *two* values that have differetnt type. <br>
 
+
+*Example*
+
 ```javascript
 console.log("I'm " + 30 + " years old");
 // I'm 30 years old
 ```
 `30` is a number and javascript manually converts it to string.
+<br>
+<br>
 
+```javascript
+console.log("23" + "10"); // 2310
+// Numbers are converted to strings
+
+console.log("23" - "10"); // 13
+// Strings are converted to numbers
+```
 
