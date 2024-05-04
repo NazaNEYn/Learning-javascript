@@ -401,6 +401,10 @@ console.log("I'm " + 30 + " years old");
 `30` is a number and javascript manually converts it to string.
 <br>
 <br>
+* `+` converts numbers to strings.
+* `-` converts strings to numbers
+
+*Example*:
 
 ```javascript
 console.log("23" + "10"); // 2310
