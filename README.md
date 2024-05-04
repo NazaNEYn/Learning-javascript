@@ -402,7 +402,9 @@ console.log("I'm " + 30 + " years old");
 <br>
 <br>
 * `+` converts numbers to strings.
-* `-` converts strings to numbers
+* `-` converts strings to numbers.
+* `*` converts strings to numbers.
+* `/` converts strings to numbers.
 
 *Example*:
 
@@ -411,6 +413,12 @@ console.log("23" + "10"); // 2310
 // Numbers are converted to strings
 
 console.log("23" - "10"); // 13
+// Strings are converted to numbers
+
+console.log("23" * "2"); // 46
+// Strings are converted to numbers
+
+console.log("23" / "2"); // 11.5
 // Strings are converted to numbers
 ```
 
