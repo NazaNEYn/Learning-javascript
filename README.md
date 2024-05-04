@@ -421,4 +421,25 @@ console.log("23" * "2"); // 46
 console.log("23" / "2"); // 11.5
 // Strings are converted to numbers
 ```
+<hr>
 
+# Truthy and Falsy Values
+
+## Falsy Values
+
+Falsy values are values that are not exactly false but will become false when we try to convert them into a boolean. <br>
+
+There are 5 falsy values: <br>
+1. 0
+2. ' '
+3. undefined
+4. null
+5. NaN (Not a Number)
+
+```javascript
+console.log(Boolean(0)); // false
+console.log(Boolean(undefined)); //false
+console.log(Boolean("Naz")); // true
+console.log(Boolean({})); // true
+console.log(Boolean("")); // false
+```
