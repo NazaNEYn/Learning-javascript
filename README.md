@@ -366,6 +366,11 @@ When javascript automatically converts types behind the scenes for us. <br>
 
 ## Type Conversion
 
+* Javascript can only convert to three types :
+1. To a number
+2. To a string
+3. To a boolean <br>
+
 *Example*
 
 ```javascript
@@ -374,10 +379,22 @@ console.log(year + 5); // 20245
 ```
 
 It doesn't automatically conver the string `("2024")` into number type.<br>
-We need to convert it by `Number()` function.<br>
+We can convert stirng to numbers by by using `Number()` function.<br>
 
 ```javascript
 const year = "2024";
 console.log(Number(year) + 5); // 2029
+// Number(year) will return the string as number
 
 ```
+
+## Type Coercion 
+Type Coercion happens whenever an opartor is dealing with *two* values that have differetnt type. <br>
+
+```javascript
+console.log("I'm " + 30 + " years old");
+// I'm 30 years old
+```
+`30` is a number and javascript manually converts it to string.
+
+
