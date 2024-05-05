@@ -541,7 +541,7 @@ if (faveNumber === 20) {
 ```
 <hr>
 
-# Boolean Logic
+# Boolean Logic And Logical Operators
 ## The `and (&&)`, `or (||)` and `not (!)` operators
 
 ### `and (&&)`
@@ -606,7 +606,33 @@ console.log(!isAnAdult); // false
 // because the person is an adult
 // therefore the result is false
 ```
+............................................
+
+*Example*
+
+```javascript
+const hasDriversLicense = true;
+const hasGoodVision = false;
+
+if (hasDriversLicense || hasGoodVision) {
+  console.log("You can drive");
+} else {
+  console.log("let Max take the wheel");
+} // You can drive
+```
+
+```javascript
+const hasDriversLicense = true;
+const hasGoodVision = false;
+
+if (hasDriversLicense && hasGoodVision) {
+  console.log("You can drive");
+} else {
+  console.log("let Max take the wheel");
+} // let Max take the wheel
+```
+
 
 <hr>
 
-# Logical Operators
+
