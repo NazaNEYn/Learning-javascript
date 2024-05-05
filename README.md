@@ -493,6 +493,7 @@ console.log(20 === 20); // true
 <br>
 
 
+
 ```javascript
 const age = prompt("How old are you?");
 
@@ -504,6 +505,12 @@ if (age === "18") {
   console.log("You are NOT old enough to drive");
 }
 // if you enter 18 = You are old enough to drive
+```
+
+```javascript
+const age = prompt("How old are you?");
+
+console.log(typeof age); // string
 
 if (age === 18) {
   console.log("You are old enough to drive");
