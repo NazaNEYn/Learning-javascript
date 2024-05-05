@@ -538,3 +538,31 @@ if (faveNumber === 20) {
 } else {
   console.log("Try again!");
 }
+<hr>
+
+# Boolean Logic: The `and (&&)`, `or (||)` and `not (!)` operators
+
+## `and (&&)`
+
+<br>
+
+| And       | True  | False |
+| --------- |  -----|------- | 
+| **True**  |True   | False  |
+| **False** |False  |False  |
+
+* The result will *only* be true *if* **ALL** conditions are true.
+
+
+## `or (||)`
+
+<br>
+
+| And       | True  | False |
+| --------- |  -----|------- | 
+| **True**  |True   | True  |
+| **False** |True  |False  |
+
+* The result will *only* be false *if* **ALL** conditions are false. 
+* The result will be *true* only if **ONE** condistion is true
+
