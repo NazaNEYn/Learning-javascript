@@ -443,3 +443,29 @@ console.log(Boolean("Naz")); // true
 console.log(Boolean({})); // true
 console.log(Boolean("")); // false
 ```
+<hr>
+
+# Equality Operators: (`==` vs `===`)
+
+* Whenever our `if` block only has one line, we actually don't need two curly braces (`{}`)
+<br><br>
+
+*Example* 
+```javascript
+const age = 20;
+if (age === 20) console.log("It is time to find a job!");
+```
+
+## Strict Equality Operator (`===`):
+It's strcit because it doesn't perform type coercion. It only returns true when both values are exactly the same.
+
+## Loose Equality Operator (`==`):
+It does perfom type coercion.
+
+<br><br>
+### `==` vs `===`
+
+| `===`                          | `==` |
+| -------------                  |:-------------:|
+| equal value and equal type      | equal to    |
+
