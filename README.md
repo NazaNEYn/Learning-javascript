@@ -519,3 +519,20 @@ if (age === 18) {
 }
 // if you enter 18 = You are NOT old enough to drive
 ```
+
+
+*Example 2*:
+```javascript
+const faveNumber = Number(prompt("What is your favorite number?"));
+
+console.log(faveNumber);
+console.log(typeof faveNumber); 
+// `(prompt("What is your favorite number?")` was originally a string. So we converted it to a number by `Number()` string
+
+if (faveNumber === 20) {
+  console.log("That is a cool number!");
+} else if (faveNumber === 8) {
+  console.log("Meeeh!!");
+} else {
+  console.log("Try again!");
+}
