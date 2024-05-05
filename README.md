@@ -527,7 +527,9 @@ const faveNumber = Number(prompt("What is your favorite number?"));
 
 console.log(faveNumber);
 console.log(typeof faveNumber); 
-// `(prompt("What is your favorite number?")` was originally a string. So we converted it to a number by `Number()` string
+// (prompt("What is your favorite number?") was originally a string.
+// So we converted it to a number by Number() string.
+// And now value and type are the same.
 
 if (faveNumber === 20) {
   console.log("That is a cool number!");
