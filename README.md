@@ -636,7 +636,8 @@ if (hasDriversLicense && hasGoodVision) {
 
 # The switch Statement
 
-It's an alternative way of writing a complicated if/else statement when all we want to do is to compare one value to multiple different options.
+It's an alternative way of writing a complicated if/else statement when all we want to do is to compare one value to multiple different options.<br>
+It's for equality (day === 'monday'), not for comparing stuff.
 
 ```javascript
 const day = "friday";
@@ -686,9 +687,11 @@ switch (day) {
     console.log("Not a valid day!!!");
 }
 // result : studying and playing cyberpunk
-AND having a coffee chat
+// AND having a coffee chat
 ```
 
 So what happened?
 Without the `break`, both sunday and monday will be executed untill it reaches to the next `break`.
+
+
   
