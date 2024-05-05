@@ -553,8 +553,21 @@ if (faveNumber === 20) {
 | **True**  |True   | False  |
 | **False** |False  |False  |
 
-* The result will *only* be true *if* **ALL** conditions are true.
+* The result will *only* be true *if* **ALL** conditions are true. <br>
 
+```javascript
+const isAnAdult = true;
+const cantDrive = true;
+
+console.log(isAnAdult && cantDrive); // true
+```
+
+```javascript
+const isAnAdult = true;
+const cantDrive = false;
+
+console.log(isAnAdult && cantDrive); // false
+```
 
 ### `or (||)`
 
@@ -566,5 +579,34 @@ if (faveNumber === 20) {
 | **False** |True  |False  |
 
 * The result will *only* be false *if* **ALL** conditions are false. 
-* The result will be *true* only if **ONE** condistion is true
+* The result will be *true* only if **ONE** condistion is true <br>
 
+```javascript
+const isAnAdult = false;
+const cantDrive = false;
+
+console.log(isAnAdult || cantDrive); // false
+```
+
+```javascript
+const isAnAdult = true;
+const cantDrive = false;
+
+console.log(isAnAdult || cantDrive); // true
+```
+
+### `not (!)`
+
+```javascript
+const isAnAdult = true;
+
+console.log(!isAnAdult); // false
+// this stated that the person is not and adult
+// which is not true
+// because the person is an adult
+// therefore the result is false
+```
+
+<hr>
+
+# Logical Operators
