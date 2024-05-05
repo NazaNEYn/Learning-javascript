@@ -538,6 +538,7 @@ if (faveNumber === 20) {
 } else {
   console.log("Try again!");
 }
+```
 <hr>
 
 # Boolean Logic: The `and (&&)`, `or (||)` and `not (!)` operators
