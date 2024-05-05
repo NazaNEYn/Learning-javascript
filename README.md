@@ -632,7 +632,7 @@ if (hasDriversLicense && hasGoodVision) {
 } // let Max take the wheel
 ```
 
-
 <hr>
 
+# The switch Statement
 
