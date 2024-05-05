@@ -636,3 +636,59 @@ if (hasDriversLicense && hasGoodVision) {
 
 # The switch Statement
 
+It's an alternative way of writing a complicated if/else statement when all we want to do is to compare one value to multiple different options.
+
+```javascript
+const day = "friday";
+
+switch (day) {
+  case "saturday": // day === 'monday'
+    console.log("studying and coding");
+    break;
+  case "sunday":
+    console.log("studying and playing cyberpunk");
+    break;
+  case "monday":
+  case "tuesday":
+    console.log("having a coffee chat");
+    break;
+  case "wednsday":
+    console.log("working on a side project");
+    break;
+  case "thursday":
+    console.log("touching grass");
+    break;
+  case "friday":
+    console.log("taking the whole day off");
+    break;
+  default:
+    console.log("Not a valid day!!!");
+}
+```
+
+* What does `break` do?
+
+```javascript
+const day = "sunday";
+
+switch (day) {
+  case "saturday": // day === 'monday'
+    console.log("studying and coding");
+    break;
+  case "sunday":
+    console.log("studying and playing cyberpunk");
+  // break;
+  case "monday":
+  case "tuesday":
+    console.log("having a coffee chat");
+    break;
+  default:
+    console.log("Not a valid day!!!");
+}
+// result : studying and playing cyberpunk
+AND having a coffee chat
+```
+
+So what happened?
+Without the `break`, both sunday and monday will be executed untill it reaches to the next `break`.
+  
