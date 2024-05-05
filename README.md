@@ -447,12 +447,6 @@ console.log(Boolean("")); // false
 
 # Equality Operators: (`==` vs `===`)
 
-### `==` vs `===`
-
-| `===`                          | `==` |
-| -------------                  |:-------------:|
-| equal value and equal type      | equal to    |
-
 
 * Whenever our `if` block only has one line, we actually don't need two curly braces (`{}`)
 <br><br>
@@ -478,6 +472,43 @@ It does perfom type coercion.
 ```javascript
 console.log(20 == "20"); // true
 ```
-
 <br>
 
+### `==` vs `===`
+
+| `===`                          | `==` |
+| -------------                  |:-------------:|
+| equal value and equal type      | equal to    |
+
+```javascript
+console.log(20 == "20"); // true
+console.log(20 == 20); // true
+
+console.log(20 === "20"); // false
+console.log(20 === 20); // true
+```
+
+* As a general rule for clean code, avoid using the loose equality operator (`==`) as much as you can. It will also create many bugs.<br>
+* When using values, always use strict equality (`===`)
+<br>
+
+
+```javascript
+const age = prompt("How old are you?");
+
+console.log(typeof age); // string
+
+if (age === "18") {
+  console.log("You are old enough to drive");
+} else {
+  console.log("You are NOT old enough to drive");
+}
+// if you enter 18 = You are old enough to drive
+
+if (age === 18) {
+  console.log("You are old enough to drive");
+} else {
+  console.log("You are NOT old enough to drive");
+}
+// if you enter 18 = You are NOT old enough to drive
+```
