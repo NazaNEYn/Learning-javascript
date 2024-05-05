@@ -541,9 +541,10 @@ if (faveNumber === 20) {
 ```
 <hr>
 
-# Boolean Logic: The `and (&&)`, `or (||)` and `not (!)` operators
+# Boolean Logic
+## The `and (&&)`, `or (||)` and `not (!)` operators
 
-## `and (&&)`
+### `and (&&)`
 
 <br>
 
@@ -555,7 +556,7 @@ if (faveNumber === 20) {
 * The result will *only* be true *if* **ALL** conditions are true.
 
 
-## `or (||)`
+### `or (||)`
 
 <br>
 
