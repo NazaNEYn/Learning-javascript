@@ -693,5 +693,24 @@ switch (day) {
 So what happened?
 Without the `break`, both sunday and monday will be executed untill it reaches to the next `break`.
 
+<hr>
 
+# Statements and Expressions
+
+## Expression 
+It's a piece of code that produces a value.
+
+*Example*:<br>
+* `3 + 4`
+* `1990`
+* `true && false && !false`
+
+
+## Statements
+
+It's like a bigger piece of code that is executed and doens't produce a value on itself.
+<br><br><br>
+A decalration is like a complete sentence and expressions are like the words that make up the sentences.
+
+<hr>
   
