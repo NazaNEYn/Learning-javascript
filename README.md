@@ -697,6 +697,9 @@ Without the `break`, both sunday and monday will be executed untill it reaches t
 
 # Statements and Expressions
 
+A decalration is like a complete sentence and expressions are like the words that make up the sentences.
+
+
 ## Expression 
 It's a piece of code that produces a value.
 
@@ -709,8 +712,39 @@ It's a piece of code that produces a value.
 ## Statements
 
 It's like a bigger piece of code that is executed and doens't produce a value on itself.
-<br><br><br>
-A decalration is like a complete sentence and expressions are like the words that make up the sentences.
 
 <hr>
   
+# The Conditional (Ternary) Operator
+
+ It allows us to write something similar to and if/else statement in one line.
+ 
+ 
+ Syntax: <br>
+ ```condition ? if part : else part```
+ 
+ ```javascript
+ const money = 200;
+
+money >= 200
+  ? console.log("You saved enough money!")
+  : console.log("You are broke and need to start saving!");
+  // console.log("You saved enough money!") is the if part
+// console.log("You are broke and need to start saving!") is the else part
+```
+
+The consitional operator is in fact an operator just as the name says.<br>
+And remember that an operator always produces a value.<br>
+So in other words an operator is an expression.<br>
+It means that if we have a value, we can then assign that value to a variable.<br>
+
+As we just said, ternary operator is an expression, meaning it produce a value, So we can store it into a variable:
+
+```javascript
+const budget =
+  money >= 200
+    ? "You saved enough money"
+    : "ou are broke and need to start saving!";
+
+console.log(budget);
+```
