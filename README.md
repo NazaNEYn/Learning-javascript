@@ -760,3 +760,27 @@ By secure codes we mean to avoid accidental  errors.<br>
  It has to be the first line of code in our js file.<br>
  
  Strict mode forbids us to do certain things and it will actually create visible errors for us.<br>
+
+ <hr>
+ 
+# Functions
+
+It's a a piece of code that we can reuse over and over again <br>
+
+Syntaxt:
+
+```javascript
+function name(parameters) {
+  
+}
+```
+
+1. `function` keyword: This tells JavaScript that you're defining a function.
+
+2. Function name: Choose a descriptive name that reflects what the function does. It follows the same rules as naming variables in JavaScript (letters, numbers, underscores, and dollar signs).
+
+3.Parentheses `()`: These enclose any parameters (inputs) the function might take. If the function doesn't take any inputs, you can leave the parentheses empty.
+
+4. Function body: This is where you write the code that the function will execute. It's enclosed in curly braces `{}`.
+*Optional* `return` statement: This statement specifies the value the function will return after its execution. If no return statement is present, the function implicitly returns `undefined`.
+ 
