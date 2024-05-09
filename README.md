@@ -784,3 +784,68 @@ function name(parameters) {
 4. Function body: This is where you write the code that the function will execute. It's enclosed in curly braces `{}`.<br>
 
 *Optional* `return` statement: This statement specifies the value the function will return after its execution. If no return statement is present, the function implicitly returns `undefined`.
+
+*Example*:
+
+```javascript
+function firstName() {
+  console.log("my name is Naz");
+}
+
+firstName();
+```
+
+```javascript
+function bio(firstName, lastName, age) {
+  const bio = `Hello, I'm ${firstName} ${lastName} and I'm ${age} years old`;
+  return bio;
+}
+
+const person = bio("Naz", "Ashrafi", 30);
+console.log(person);
+```
+<hr>
+
+# Function Declarations vs. Expressions
+
+## Function Declarations
+
+```javascript
+function calcAge1(birthYear) {
+  return 2077 - birthYear;
+}
+
+const age1 = calcAge1(1990);
+console.log(age1);
+```
+
+## Function Expressions
+
+We write a `function` without a name, then we  define the parameter
+
+```javascript
+function (birthYear) {
+  return 2077 - birthYear;
+}
+```
+And then we store this into a variable and then that variable is gonna be a function.
+```javascript
+const calcAge2 = function (birthYear) {
+  return 2077 - birthYear;
+};
+```
+
+And this is an expression. <br>
+And remember, an expression produces a value.<br>
+
+```javascript
+const calcAge2 = function (birthYear) {
+  return 2077 - birthYear;
+};
+
+const age2 = calcAge2(1990);
+console.log(age2);
+```
+
+### Differences Between Function Declarations And Expressions
+
