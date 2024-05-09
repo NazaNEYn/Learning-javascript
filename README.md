@@ -849,3 +849,15 @@ console.log(age2);
 
 ### Differences Between Function Declarations And Expressions
 
+We can actually call function declarations before they are defined in the code.
+
+*Example*:
+```javascript
+const age1 = calcAge1(1990);
+console.log(age1);
+
+function calcAge1(birthYear) {
+  return 2077 - birthYear;
+}
+```
+
