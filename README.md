@@ -748,3 +748,15 @@ const budget =
 
 console.log(budget);
 ```
+<hr>
+
+# Activating Strict Mode
+
+ It's a special mode that we can activate in javascript which makes it easier for us to write a secure javascriptt code.<br>
+By secure codes we mean to avoid accidental  errors.<br>
+
+ All we have to do is to writ `'use strict';` in our js file. <br>
+ 
+ It has to be the first line of code in our js file.<br>
+ 
+ Strict mode forbids us to do certain things and it will actually create visible errors for us.<br>
