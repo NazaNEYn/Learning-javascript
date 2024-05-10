@@ -865,7 +865,12 @@ function calcAge1(birthYear) {
 
 # Arrow Functions
 
-It's a special form of function expression that is shorter and faster to write.
+It's a special form of function expression that is shorter and faster to write.<br>
+
+Syntax:
+```javascript
+const functionName = (parameters) => { functionBody }
+```
 
 ```javascript
 const calcAge = (birthYear) => 2077 - birthYear;
