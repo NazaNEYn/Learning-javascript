@@ -878,3 +878,21 @@ const calcAge = (birthYear) => 2077 - birthYear;
 const age = calcAge(1990);
 console.log(age);
 ```
+
+<hr>
+
+# Calling Functions Inside Another Functions
+
+
+```javascript
+function calculateArea(width, heigh) {
+  return heigh * width;
+}
+
+function calculateTheRoom(roomWidth, roomHeigh) {
+  const room = calculateArea(roomHeigh, roomWidth);
+  return room;
+}
+
+console.log(calculateTheRoom(22, 50));
+```
