@@ -896,3 +896,44 @@ function calculateTheRoom(roomWidth, roomHeigh) {
 
 console.log(calculateTheRoom(22, 50));
 ```
+
+<hr>
+
+# Data Structure
+
+# Arrays
+
+Let's say I want to store my friends' names in variables so that I could use theme later in my program:
+
+```javascript
+const friend1 = "Max";
+const friend2 = "Alex";
+const friend3 = "Emma";
+```
+
+Now, this isn't exacly easy to do. Because imagine that you want to write more than 3 friends. Then we would have to create lots of variables.<br>
+
+Array is like a big container into which we can throw variables and then reference them.<br>
+
+So instead of doing that, we can use `arrays`. <br>
+
+**Array Literal Syntax**
+```javascript
+const myArray = [element1, element2, ..., elementN];
+```
+
+```javascript
+const friends = ["Max", "Alex", "Emma"];
+console.log(friends);
+```
+
+**Array Constructor Syntax**
+
+```javascript
+new Array([element1, element2, ..., elementN]);
+```
+
+Example:
+```javascript
+const years = new Array(1788, 1833, 1990, 2020);
+```
