@@ -977,11 +977,14 @@ To get the index of the last element in the array
 ```javascript
 console.log(friends[friends.length - 1]);
 ```
-Breakdown of what happened:
 
+*Breakdown of what happened:*
 
 `friends[friends.length - 1]`: This part tries to access an element from a list named friends.<br>
 
 `friends.length`: This calculates the total number of elements (friends) in the list.<br>
 
 `- 1`: This subtracts 1 because arrays start counting at 0. So, if there are 3 friends, the last one would be at index 2 (3 - 1).
+
+*We can put any expression inside `[]`*<br>
+*`friends.length - 1` is ans expression*
