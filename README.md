@@ -937,3 +937,44 @@ Example:
 ```javascript
 const years = new Array(1788, 1833, 1990, 2020);
 ```
+
+
+**How To Get an Array Out?**
+
+Arrays are zero-based and start from zero
+
+```javascript
+const friend1 = "Max"; // [0]
+const friend2 = "Alex"; // [1]
+const friend3 = "Emma"; // [2]
+```
+
+And now if we were to get `Max` :
+
+```javascript
+console.log(friends[0]); // Max
+```
+
+```javascript
+console.log(friends[1]); // Alex
+console.log(friends[2]); // Emma
+```
+
+**How to get the number of the elements that are in the array? (How to get the length of an array?)**
+
+```javascript
+console.log(friends.length); // 3
+```
+
+**How to get the last element of an array?**
+
+To get an element from the array we use `[]`
+```javascript
+console.log(friends[])
+```
+
+To get the index of the last element in the array
+```javascript
+console.log(friends[friends.length - 1]);
+```
+
