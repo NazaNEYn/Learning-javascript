@@ -988,3 +988,12 @@ console.log(friends[friends.length - 1]);
 
 *We can put any expression inside `[]`*<br>
 *`friends.length - 1` is ans expression*
+
+We can also chane it to add elements to the array:<br>
+
+Let's say we wanna replace the second array which is 'Alex':
+
+```javascript
+friends[1] = " Toni";
+console.log(friends); // ['Max', ' Toni', 'Emma']
+```
