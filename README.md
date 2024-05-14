@@ -1016,4 +1016,55 @@ We can not do something like :
 friends = ["Toni", "Ted"];
 ```
 
-**An array can actually hold values with different types**
+
+**An array can actually hold values with different types :**
+
+```javascript
+const bio = ["Naz", "Ashrafi", 2024 - 1993];
+```
+
+We can use variables inside an array :
+```javascriptconst firstName = "Naz";
+const bio = [firstName, "Ashrafi", 30];
+```
+
+We can also use an array inside the array :
+```javascript
+const friends = ["Max", "Alex", "Emma"];
+const bio = ['Naz', "Ashrafi", 30, friends];
+```
+<br>
+
+*Example :*
+```javascript
+const calcAge = (birthYear) => 2024 - birthYear;
+
+const years = [1763, 1891, 1990, 2007];
+
+console.log(calcAge(years[0])); // 2024 - 1763 = 261
+
+console.log(calcAge(years[years.length - 1])); // 17 
+//Calcualte the last array
+```
+
+Instead of doing this :
+```javascript
+console.log(calcAge(years[0])); // 261
+console.log(calcAge(years[1])); // 133
+console.log(calcAge(years[2])); // 34
+console.log(calcAge(years[3])); // 17
+```
+
+We can do this:
+```javascript
+const ages = [
+  calcAge(years[0]),
+  calcAge(years[1]),
+  calcAge(years[2]),
+  calcAge(years[3])
+];
+
+console.log(ages);
+```
+
+
