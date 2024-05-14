@@ -32,7 +32,7 @@ let x, y;
 
 # Data Types
 
-Evey value is either:
+every value is either:
 1. Object : 
 ```javascript
 let me  { 
@@ -991,9 +991,29 @@ console.log(friends[friends.length - 1]);
 
 We can also chane it to add elements to the array:<br>
 
-Let's say we wanna replace the second array which is 'Alex':
+**Let's say we wanna replace the second array which is 'Alex':**
 
 ```javascript
 friends[1] = " Toni";
 console.log(friends); // ['Max', ' Toni', 'Emma']
 ```
+
+
+
+We said variables with `const` can not be changed. But in this example we were able to change our element in the array. So how did that heppen?<br>
+**A:** Only primitive values are immutable, meaning you can not change it.<br>
+
+If we check the type of `friends` we'll see it's an object and not a primitive value:
+
+```javascript
+console.log(typeof friends); //object
+```
+
+So basically, we can still modify the content of that object or array but we can not replace the entire array.<br>
+
+We can not do something like : 
+```javascript
+friends = ["Toni", "Ted"];
+```
+
+**An array can actually hold values with different types**
