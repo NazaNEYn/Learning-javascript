@@ -1103,7 +1103,7 @@ console.log(newLength); // 5
 **Q:**
 why does `const newLength = friends.push("Bob");`` only print out the length?<br>
 
-**A:**<br>
+**A:**
 The line `const newLength = friends.push("Bob");`` only prints the length (5) because of two key things:<br>
 
 1. What `push` Returns:
@@ -1114,3 +1114,8 @@ The line `const newLength = friends.push("Bob");`` only prints the length (5) be
 * Importantly, it returns the new length of the modified array. This new length (5 in this case) is what gets assigned to the `newLength` variable.
 
 2. What `console.log` Shows:
+* The `console.log` function simply displays what you tell it to.
+
+* In this line, you're telling it to display the value of the `newLength` variable, which is just the number 5 (the new length).
+
+* It doesn't automatically show the contents of the array (`friends`).
