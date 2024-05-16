@@ -1074,7 +1074,7 @@ console.log(ages);
 ![image](https://github.com/NazaNEYn/Learning-javascript/assets/68081983/f2a7de26-7f11-4020-ba40-ff4aafa646a2)
 
 
-### Push
+### push()
 Push medthod adds elelemnts to the end of the array.
 
 *Example*:
@@ -1119,3 +1119,43 @@ The line `const newLength = friends.push("Bob");`` only prints the length (5) be
 * In this line, you're telling it to display the value of the `newLength` variable, which is just the number 5 (the new length).
 
 * It doesn't automatically show the contents of the array (`friends`).
+  <br>
+
+# unshift()
+It add elements to the beginning of the Array.<br>
+
+```javascript
+const friends = ["Max", "Alex", "Mary", "John"];
+
+friends.unshift("Bob");
+
+console.log(friends);
+// (5) ['Bob', 'Max', 'Alex', 'Mary', 'John']
+```
+ 
+ # pop()
+ It removes the last element of the array.<br>
+ *We don't need to pass any arguments*
+ 
+ ```javascript
+ const friends = ["Max", "Alex", "Mary", "John"];
+ 
+ friends.pop();
+
+console.log(friends);
+// (3) ['Max', 'Alex', 'Mary']
+// John is gone
+```
+
+*If we write `friends.pop();` twice, it'll remove two elements from the end of the array.
+
+ ```javascript
+ const friends = ["Max", "Alex", "Mary", "John"];
+ 
+ friends.pop();
+ friends.pop();
+
+console.log(friends);
+// (3) ['Max', 'Alex', 'Mary']
+// John and Mary are gone
+```
