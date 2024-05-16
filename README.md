@@ -1147,7 +1147,7 @@ console.log(friends);
 // John is gone
 ```
 
-*If we write `friends.pop();` twice, it'll remove two elements from the end of the array.
+*If we write `friends.pop();` twice, it'll remove two elements from the end of the array.*
 
  ```javascript
  const friends = ["Max", "Alex", "Mary", "John"];
@@ -1156,6 +1156,19 @@ console.log(friends);
  friends.pop();
 
 console.log(friends);
-// (3) ['Max', 'Alex', 'Mary']
+// (3) ['Max', 'Alex']
 // John and Mary are gone
+```
+
+*`pop()` doens't return length of the array. It returns the removed element*
+
+```javascript
+const friends = ["Max", "Alex", "Mary", "John"];
+
+// what pop returns :
+// it doesn't return the length.
+// it returns the last element that was removed
+const pop = friends.pop();
+
+console.log(pop); // John
 ```
