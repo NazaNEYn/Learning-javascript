@@ -1074,7 +1074,7 @@ console.log(ages);
 ![image](https://github.com/NazaNEYn/Learning-javascript/assets/68081983/f2a7de26-7f11-4020-ba40-ff4aafa646a2)
 
 
-### push()
+## push()
 Push medthod adds elelemnts to the end of the array.
 
 *Example*:
@@ -1121,7 +1121,7 @@ The line `const newLength = friends.push("Bob");`` only prints the length (5) be
 * It doesn't automatically show the contents of the array (`friends`).
   <br>
 
-# unshift()
+## unshift()
 It add elements to the beginning of the Array.<br>
 
 ```javascript
@@ -1133,7 +1133,7 @@ console.log(friends);
 // (5) ['Bob', 'Max', 'Alex', 'Mary', 'John']
 ```
  
- # pop()
+ ## pop()
  It removes the last element of the array.<br>
  *We don't need to pass any arguments*
  
@@ -1173,7 +1173,7 @@ const pop = friends.pop();
 console.log(pop); // John
 ```
 
- # shift()
+ ## shift()
  It removes the first element of the array.<br>
  
  ```javascript
@@ -1203,3 +1203,39 @@ const friends = ["Max", "Alex", "Mary", "John"];
 
 console.log(friends.indexOf("Toni")); // -1
 ```
+
+## includes()
+
+So instead of returning the index of the element, it will return true if the element is in the array and false if it's not. 
+
+```javascript
+const friends = ["Max", "Alex", "Mary", "John"];
+
+console.log(friends.includes("Max")); // true
+
+console.log(friends.includes("Toni"));
+// the output is false because Toni isn't in the array
+```
+
+*This method uses strict equality for the check*<br>
+If we add `23` to the array and check for the `'23'`, the result would be false.
+
+```
+friends.push(23);
+console.log(friends.includes("23"));
+```
+
+
+*We can use `includes()` to write conditionals.*
+```javascript
+const friends = ["Max", "Alex", "Mary", "John"];
+
+if (friends.includes("Max")) {
+  console.log("Hello Max");
+} else {
+  console.log("You are not Max");
+}
+// Hello Max
+```
+
+<hr>
