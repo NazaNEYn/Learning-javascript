@@ -1172,3 +1172,34 @@ const pop = friends.pop();
 
 console.log(pop); // John
 ```
+
+ # shift()
+ It removes the first element of the array.<br>
+ 
+ ```javascript
+ const friends = ["Max", "Alex", "Mary", "John"];
+ 
+ friends.shift();
+
+console.log(friends);
+// (4) ['Alex', 'Mary', 'John']
+```
+
+# indexOf()
+It tells us in which position a certain element is in the Array and then we pass the element that we want to reference.
+
+```javascript
+const friends = ["Max", "Alex", "Mary", "John"];
+
+console.log(friends.indexOf("Alex")); // 1
+
+console.log(friends.indexOf("John")); // 3
+```
+
+If we try the same thing for an element that that is not there, we'll get `-1`
+
+```javascript
+const friends = ["Max", "Alex", "Mary", "John"];
+
+console.log(friends.indexOf("Toni")); // -1
+```
