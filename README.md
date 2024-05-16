@@ -1074,3 +1074,43 @@ console.log(ages);
 ![image](https://github.com/NazaNEYn/Learning-javascript/assets/68081983/f2a7de26-7f11-4020-ba40-ff4aafa646a2)
 
 
+### Push
+Push medthod adds elelemnts to the end of the array.
+
+*Example*:
+```javascript
+const friends = ["Max", "Alex", "Mary", "John"];
+
+friends.push("Bob");
+
+console.log(friends);
+// adds 'Bob' to the end of the array
+// ['Max', 'Alex', 'Mary', 'John', 'Bob']
+```
+
+Since `push()` is a function, it can also return something.<br>
+So we can pass arguments into function.<br>
+`push()` function return a value and the value that it returns is the length of the new array.<br>
+So if we want to capture the data or the value, we can create a new variable for that.
+
+```javascript
+const friends = ["Max", "Alex", "Mary", "John"];
+
+const newLength = friends.push("Bob");
+
+console.log(newLength); // 5
+```
+**Q:**
+why does `const newLength = friends.push("Bob");`` only print out the length?<br>
+
+**A:**<br>
+The line `const newLength = friends.push("Bob");`` only prints the length (5) because of two key things:<br>
+
+1. What `push` Returns:
+* The `push` method in JavaScript doesn't directly print anything.
+
+* Its job is to modify the original array (`friends` in this case) by adding a new element ("Bob") to the end.
+
+* Importantly, it returns the new length of the modified array. This new length (5 in this case) is what gets assigned to the `newLength` variable.
+
+2. What `console.log` Shows:
