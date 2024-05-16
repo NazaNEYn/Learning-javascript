@@ -1239,3 +1239,37 @@ if (friends.includes("Max")) {
 ```
 
 <hr>
+
+# Objects
+
+
+In objects we define key value pairs. Then we can give each of these values, a name.<br>
+The key is the variable name.<br>
+We use curly braces `{}` for the objects.
+
+### Object Literal
+
+*Syntax*
+```javascript
+const variableName = {
+    key: value,
+    key: value,
+    key: value
+}
+```
+* *Keys are also called properties*
+
+*Example*:
+```javascript
+const bio = {
+  firstName: "Naz",
+  lastName: "Ashrafi",
+  Age: 2024 - 1993,
+  friends: ["Ted", "John", "Max"]
+};
+```
+
+**Difference Between Arrays And Objects :**<br>
+In objects, the order of the values does not matter at all when we want to retrieve them.<br>
+In Array, the order in which we specify the elements matters a lot because that's how we access the elements.<br>
+This means we should use arrays for more order data and objects for more unstructured data.
