@@ -1067,4 +1067,10 @@ const ages = [
 console.log(ages);
 ```
 
+<hr>
+
+# Array Methods
+
+![image](https://github.com/NazaNEYn/Learning-javascript/assets/68081983/f2a7de26-7f11-4020-ba40-ff4aafa646a2)
+
 
