@@ -1275,6 +1275,41 @@ In Array, the order in which we specify the elements matters a lot because that'
 This means we should use arrays for more order data and objects for more unstructured data.
 
 
+### Getting a property/key from an object :
+
+* Dot Notation `(object.property)`
+
+```javascript
+const bio = {
+  firstName: "Naz",
+  lastName: "Ashrafi",
+  Age: 2024 - 1993,
+  friends: ["Ted", "John", "Max"]
+};
+
+console.log(bio.lastName); //Ashrafi
+console.log(bio.friends); // ['Ted', 'John', 'Max']
+```
+
+* Bracket Notation `(object["property"])`
+
+We need to specify a string with the property name.
+
+```javascript
+const bio = {
+  firstName: "Naz",
+  lastName: "Ashrafi",
+  Age: 2024 - 1993,
+  friends: ["Ted", "John", "Max"]
+};
+
+console.log(bio["lastName"]);
+```
+
+**Differences between dot notation and bracket notation:**
+
+In the bracket notation, we can actually put any expression that we like. We don't have to explicitly write the string here.
+
 ```javascript
 const bio = {
   firstName: "Naz",
@@ -1285,7 +1320,9 @@ const bio = {
 
 const nameKey = "Name";
 console.log(bio["first" + nameKey]); // Naz
+// first + Name = firstName = Naz
 console.log(bio["last" + nameKey]); // Ashrafi
+// last + Name = latsName = Ashrafi
 ```
 
 *So what happend here?*
@@ -1294,3 +1331,5 @@ So basically the output will be `firstName`. <br>
 And since we alredy have a property named `firstName`, javascript will output the `firstName` property, which is `Naz`.<br>
 And the same thing with the second output happend:<br>
 `last + Name = latsName = Ashrafi`
+
+This is *not* gonna work with the dot notation.
