@@ -1352,3 +1352,58 @@ Because methods are just functions attached to objects, you can call them using 
 * Dot notation is generally faster than bracket notation because it doesn't require extra string conversion.<br>
 * Bracket notation is more flexible but can be less readable.<br>
 * Choose the notation that best suits the situation and readability of your code.
+<br>
+
+Let's say we wanna let the user pick something and we don't what propertie they are going to choose.<br>
+
+
+*Example :* <br>
+
+We wanna let the user choose pick a number between 1-5 and get a random fruit name :
+
+**1. Object Creation:**<br>
+First we create an object named `fruits`
+```javascript
+const fruits = {
+  1: "Apple",
+  2: "Orange",
+  3: "Watermelon",
+  4: "Banana",
+  5: "Strawberry"
+};
+```
+
+
+**2. User Input:**<br>
+To get a popup question, we use `propmt()` and will store it in a variable named `randomFruit`.<br>
+```javascript
+const randomFruit = prompt(
+  "Pick a number between 1-5 to get a random fruit name"
+);
+```
+
+**3. Accessing Fruit Name:**
+```javascript
+console.log(fruits[randomFruit]);
+```
+* This line tries to access a property in the `fruits` object using the value stored in `randomFruit`.
+* `fruits` is the object you defined earlier, containing fruit names with numbers (1-5) as keys.
+* `randomFruit` is a variable that stores the user's input number (between 1 and 5).<br>
+<br>
+
+**Full code snippet:**
+```javascript
+const fruits = {
+  1: "Apple",
+  2: "Orange",
+  3: "Watermelon",
+  4: "Banana",
+  5: "Strawberry"
+};
+
+const randomFruit = prompt(
+  "Pick a number between 1-5 to get a random fruit name"
+);
+
+console.log(fruits[randomFruit]);
+```
