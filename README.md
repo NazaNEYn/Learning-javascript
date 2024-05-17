@@ -1332,4 +1332,25 @@ And since we alredy have a property named `firstName`, javascript will output th
 And the same thing with the second output happend:<br>
 `last + Name = latsName = Ashrafi`
 
-This is *not* gonna work with the dot notation.
+This is *not* gonna work with the dot notation.<br>
+
+**Recap :** <br>
+* Dot Notation `(object.property)` : <br>
+  **Simpler and easier to read:** <br>
+  When the property name is a valid JavaScript identifier (letters, numbers, underscores, and a dollar sign at the beginning), 
+  and it doesn't contain spaces or special characters, dot notation is preferred for readability.<br>
+
+* Bracket Notation `(object["property"])`<br>
+    **Dynamic property names:** <br> Use bracket notation when the property name is stored in a variable, comes from user input, or 
+    contains special characters or spaces.<br>
+**Method calls can also use dot notation:** Because methods are just functions attached to objects, you can call them using dot notation.<br>
+
+
+**Key points to remember:**
+
+* Dot notation is generally faster than bracket notation because it doesn't require extra string conversion.<br>
+* Bracket notation is more flexible but can be less readable.<br>
+* Choose the notation that best suits the situation and readability of your code.
+
+
+
