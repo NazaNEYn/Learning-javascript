@@ -1392,7 +1392,8 @@ console.log(fruits[randomFruit]);
 * `fruits` is the object you defined earlier, containing fruit names with numbers (1-5) as keys.
 * `randomFruit` is a variable that stores the user's input number (between 1 and 5).
 * JavaScript uses square brackets `[]` to access object properties when the property name might not be a valid variable name (like numbers in this case) or when it's dynamically generated (comes from user input).<br>
-So to put it simple, Javascript will replace `randomFruit` with the actual value of the variable and that's the one that will be looked on on the `fruits` object
+<br>
+So to put it simply, Javascript will replace `randomFruit` with the actual value of the variable and that's the one that will be looked on on the `fruits` object
 
 **Full code snippet:**
 ```javascript
@@ -1410,3 +1411,5 @@ const randomFruit = prompt(
 
 console.log(fruits[randomFruit]);
 ```
+
+### Adding New Properties To The Objcet
