@@ -1413,3 +1413,18 @@ console.log(fruits[randomFruit]);
 ```
 
 ### Adding New Properties To The Objcet
+
+```javascript
+const bio = {
+  firstName: "Naz",
+  lastName: "Ashrafi",
+  Age: 2024 - 1993,
+  friends: ["Ted", "John", "Max"]
+};
+
+// dot notation
+bio.job = "Got some boring office job";
+
+// bracket notation
+bio["hobby"] = "Playing video games";
+```
