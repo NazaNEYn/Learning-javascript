@@ -1273,3 +1273,24 @@ const bio = {
 In objects, the order of the values does not matter at all when we want to retrieve them.<br>
 In Array, the order in which we specify the elements matters a lot because that's how we access the elements.<br>
 This means we should use arrays for more order data and objects for more unstructured data.
+
+
+```javascript
+const bio = {
+  firstName: "Naz",
+  lastName: "Ashrafi",
+  Age: 2024 - 1993,
+  friends: ["Ted", "John", "Max"]
+};
+
+const nameKey = "Name";
+console.log(bio["first" + nameKey]); // Naz
+console.log(bio["last" + nameKey]); // Ashrafi
+```
+
+*So what happend here?*
+The output would be first the string + nemeKey variable (`first + Name`).<br>
+So basically the output will be `firstName`. <br>
+And since we alredy have a property named `firstName`, javascript will output the `firstName` property, which is `Naz`.<br>
+And the same thing with the second output happend:<br>
+`last + Name = latsName = Ashrafi`
