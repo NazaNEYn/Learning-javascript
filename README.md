@@ -1428,3 +1428,52 @@ bio.job = "Got some boring office job";
 // bracket notation
 bio["hobby"] = "Playing video games";
 ```
+<hr>
+
+# Object Methods
+
+Any function that is attached to an object is called a method.
+
+
+```javascript
+const bio = {
+  firstName: "Jonas",
+  lastName: "Ashrafi",
+
+  // this is a function value
+  calcAge: function (birthYear) {
+    return 2024 - birthYear;
+  }
+};
+```
+
+We can **not** do something like this:
+```javascript
+const bio = {
+
+  function calcAge(birthYear) {
+    return 2024 - birthYear;
+  }
+}
+```
+Because this a decalartion and we can only write experession in the object.<br>
+
+How to access the `calcAge` propert?
+```javascript
+const bio = {
+  firstName: "Jonas",
+  lastName: "Ashrafi",
+
+  calcAge: function (birthYear) {
+    return 2024 - birthYear;
+  }
+};
+
+// dot notation
+console.log(bio.calcAge(1993));
+
+// bracket notation
+console.log(bio["calcAge"](1993));
+```
+
+`calcAge` is the function value. In order to call this function we use `()` and the we pass the year to the function.
