@@ -1476,4 +1476,24 @@ console.log(bio.calcAge(1993));
 console.log(bio["calcAge"](1993));
 ```
 
-`calcAge` is the function value. In order to call this function we use `()` and the we pass the year to the function.
+`calcAge` is the function value. In order to call this function we use `()` and the we pass the year to the function.<br>
+<br>
+
+In this code snippet
+```javascript
+const bio = {
+  firstName: "Jonas",
+  lastName: "Ashrafi",
+  birthYear: 1993,
+
+  calcAge: function (birthYear) {
+    return 2024 - birthYear;
+  }
+};
+
+console.log(bio.calcAge(1993))
+```
+
+We already have the `birthYear`. So wrtiting the same number in two places (`birthYear: 1993` and `console.log(bio.calcAge(1993))
+`) is not ideal because we might make a mistake and pass in th wrong year.<br>
+If we know the `birthYear`, we should only write it in one place because if it changes we have to change it everywhere.
