@@ -1531,5 +1531,39 @@ calcAge: function () {
 }
 ```
 And we will read the birthYear directly from the object and for that we will use the `this` keyword.<br>
-`this` keyword/variable is basically equal to the object on which the method is called.
+`this` keyword/variable is basically equal to the object on which the method is called.<br>
+
+or in other words, it is equal to the object calling the method.<br>
+ 
+ Who is calling the method?<br>
+ 
+ So here, in the `calcAge()` method, the objcet that is calling the method is `bio`
+ ```javascript
+ console.log(bio.calcAge(1993));
+```
+
+That means inside this method, the `this` keyword/variable will point to `bio`
+```javascript
+calcAge: function (birthYear) {
+  return 2024 - birthYear;
+}
+```
+=>
+
+```javascript
+const bio = {
+  firstName: "Jonas",
+  lastName: "Ashrafi",
+  birthYear: 1993,
+
+  calcAge: function () {
+    return 2024 - this.birthYear;
+  }
+};
+
+console.log(bio.calcAge());
+// we don't need to pass a parameter 
+```
+
+`this` points to `bio` so then `this.birthYear` points to `birthYear: 1993`
  
