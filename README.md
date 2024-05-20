@@ -1496,4 +1496,40 @@ console.log(bio.calcAge(1993))
 
 We already have the `birthYear`. So wrtiting the same number in two places (`birthYear: 1993` and `console.log(bio.calcAge(1993))
 `) is not ideal because we might make a mistake and pass in th wrong year.<br>
-If we know the `birthYear`, we should only write it in one place because if it changes we have to change it everywhere.
+If we know the `birthYear`, we should only write it in one place because if it changes we have to change it everywhere.<br>
+
+### A Short Intro Into `this` Keyword
+What if there was a way to directly access the `birthYear` from the object instead of having to pass it in as a parameter?<br>
+
+```javascript
+const bio = {
+  firstName: "Jonas",
+  lastName: "Ashrafi",
+  birthYear: 1993,
+
+  calcAge: function (birthYear) {
+    return 2024 - birthYear;
+  }
+};
+
+console.log(bio.calcAge(1993));
+```
+
+In this `calcAge` function, we can read the `birthYear`directly from the object without passing it as a parameter.<br>
+
+In this function, we no longer need the parameter.
+
+```javascript
+calcAge: function (birthYear) {
+  return 2024 - birthYear;
+}
+```
+
+```javascript
+calcAge: function () {
+  return 2024 - birthYear;
+}
+```
+And we will read the birthYear directly from the object and for that we will use the `this` keyword.<br>
+`this` keyword/variable is basically equal to the object on which the method is called.
+ 
