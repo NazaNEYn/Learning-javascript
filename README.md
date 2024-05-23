@@ -1586,5 +1586,32 @@ console.log(bio.calcAge());
 console.log(bio.calcAge());
 ```
 When we call the `calcAge()` function multiple times, it means the computation will happen multiple times. It's not a big deal in this case but in heavier calculations, it will take some more time and that's not a good practice. <br>
-What we can do is to calculate `age` once, then store it in the Object and the we can retrieve the Object as a property from the object.
- 
+What we can do is to calculate `age` once, then store it in the Object and the we can retrieve the Object as a property from the object.<br>
+We can use the `this` keyword to store a new property.
+
+```javascript
+const bio = {
+  firstName: "Naz",
+  lastName: "Ashrafi",
+  birthYear: 1993,
+  
+  // we stored age in the object and returned it
+  calcAge: function () {
+    this.age = 2024 - this.birthYear;
+    return this.age;
+  }
+};
+
+// first we call the calcAge
+console.log(bio.calcAge());
+
+// if we check for console.log(bio.age);
+// before calling the calcAge the output will be undefined
+// because the code checks for the age property of the bio object  before
+//the calcAge function has a chance to set it.
+console.log(bio.age);
+console.log(bio.age);
+console.log(bio.age);
+```
+
+First we stored `age` in the object and returned it. Then we call the `calcAge` function **before** the `console.log` statement. This ensures the function is executed, setting the `age` property with the calculated value. Then, the `console.log` uses the updated `bio` object with the set `age`.
