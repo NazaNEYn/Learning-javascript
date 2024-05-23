@@ -1614,4 +1614,7 @@ console.log(bio.age);
 console.log(bio.age);
 ```
 
-First we stored `age` in the object and returned it. Then we call the `calcAge` function **before** the `console.log` statement. This ensures the function is executed, setting the `age` property with the calculated value. Then, the `console.log` uses the updated `bio` object with the set `age`.
+First we stored `age` in the object and returned it.<br>
+Then we call the `calcAge` function **before** the `console.log` statement.<br>
+This ensures the function is executed, setting the `age` property with the calculated value.<br>
+Then, the `console.log` uses the updated `bio` object with the set `age`.<br>
