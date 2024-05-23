@@ -1437,7 +1437,7 @@ Any function that is attached to an object is called a method.
 
 ```javascript
 const bio = {
-  firstName: "Jonas",
+  firstName: "Naz",
   lastName: "Ashrafi",
 
   // this is a function value
@@ -1461,7 +1461,7 @@ Because this a decalartion and we can only write experession in the object.<br>
 How to access the `calcAge` propert?
 ```javascript
 const bio = {
-  firstName: "Jonas",
+  firstName: "Naz",
   lastName: "Ashrafi",
 
   calcAge: function (birthYear) {
@@ -1482,7 +1482,7 @@ console.log(bio["calcAge"](1993));
 In this code snippet
 ```javascript
 const bio = {
-  firstName: "Jonas",
+  firstName: "Naz",
   lastName: "Ashrafi",
   birthYear: 1993,
 
@@ -1503,7 +1503,7 @@ What if there was a way to directly access the `birthYear` from the object inste
 
 ```javascript
 const bio = {
-  firstName: "Jonas",
+  firstName: "Naz",
   lastName: "Ashrafi",
   birthYear: 1993,
 
@@ -1552,7 +1552,7 @@ calcAge: function (birthYear) {
 
 ```javascript
 const bio = {
-  firstName: "Jonas",
+  firstName: "Naz",
   lastName: "Ashrafi",
   birthYear: 1993,
 
@@ -1572,7 +1572,7 @@ Let's say we need to access `age` multiple times throughout our program. It's be
 
 ```javascript
 const bio = {
-  firstName: "Jonas",
+  firstName: "Naz",
   lastName: "Ashrafi",
   birthYear: 1993,
 
