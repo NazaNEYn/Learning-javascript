@@ -1565,5 +1565,26 @@ console.log(bio.calcAge());
 // we don't need to pass a parameter 
 ```
 
-`this` points to `bio` so then `this.birthYear` points to `birthYear: 1993`
+`this` points to `bio` so then `this.birthYear` points to `birthYear: 1993` <br>
+
+Let's say we need to access `age` multiple times throughout our program. It's be like this : 
+
+
+```javascript
+const bio = {
+  firstName: "Jonas",
+  lastName: "Ashrafi",
+  birthYear: 1993,
+
+  calcAge: function () {
+    return 2024 - this.birthYear;
+  }
+};
+
+console.log(bio.calcAge());
+console.log(bio.calcAge());
+console.log(bio.calcAge());
+```
+When we call the `calcAge()` function multiple times, it means the computation will happen multiple times. It's not a big deal in this case but in heavier calculations, it will take some more time and that's not a good practice. <br>
+What we can do is to calculate `age` once 
  
