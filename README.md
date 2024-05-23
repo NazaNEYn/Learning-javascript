@@ -1586,5 +1586,5 @@ console.log(bio.calcAge());
 console.log(bio.calcAge());
 ```
 When we call the `calcAge()` function multiple times, it means the computation will happen multiple times. It's not a big deal in this case but in heavier calculations, it will take some more time and that's not a good practice. <br>
-What we can do is to calculate `age` once 
+What we can do is to calculate `age` once, then store it in the Object and the we can retrieve the Object as a property from the object.
  
