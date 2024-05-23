@@ -1567,7 +1567,8 @@ console.log(bio.calcAge());
 
 `this` points to `bio` so then `this.birthYear` points to `birthYear: 1993` <br>
 
-Let's say we need to access `age` multiple times throughout our program. It's be like this : 
+### Let's say we need to access `age` multiple times throughout our program. <br>
+It'd be like this : 
 
 
 ```javascript
