@@ -1748,6 +1748,8 @@ for (let i = 0; i < bio.length; i++) {
   console.log(bio[i]);
 
   bioTypes[i] = typeof bio[i];
+  // bioTypes at position i should be equal to
+  // typeof bio at position i
   console.log(bioTypes);
 }
 ```
