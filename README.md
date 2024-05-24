@@ -1781,3 +1781,18 @@ for (let i = 0; i < bio.length; i++) {
 
 console.log(bioTypes);
 ```
+
+*Another example :*
+
+```javascript
+const years = [1738, 1889, 1997, 2020];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+  ages.push(2024 - years[i]);
+}
+
+console.log(ages);
+// (4) [286, 135, 27, 4]
+```
+
