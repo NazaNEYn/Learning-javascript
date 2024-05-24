@@ -1631,17 +1631,33 @@ Tasks that we have to perfomr over and over again.
 
 ### The for statement has three parts:
 
-* **The first part** : The initial value of a counter.
+* **The first part** : <br>
+The initial value of a counter.
 ```javascript
-for (let index = 0;) 
+for (let index = 1;) 
 // let index = 0; is the first part
 ```
 *We need to use `let` variable because  the counter will be updated by the for loop*
 
-* **Second part** : is a logical condition that is evaluated before each iteration of the loop.
+* **Second part** :<br>
+is a logical condition that is evaluated before each iteration of the loop.
 ```javascript
 for (let index = 0; index <= 3)
 // index <= 3 is the second part
 // it's the logical condition part
 ```
-This part will be evaluated before each iteration of the loop.
+This part will be evaluated before each iteration of the loop.<br>
+
+If the condition is true, then the loop iteration will return.<br>
+But as soon as this constion is false, then the loop will stop. So no more code will be executed.
+
+* **The third part** :<br>
+is updating the counter after each iteration. <br>
+If we don't update the counter, it will stay at 1 forever and never stops.<br>
+So we update the counter and increase it by one after each iteration.
+
+```javascript
+for (let index = 1; index <= 3; index++)
+// index++ is the third part
+// it's the updating part
+```
