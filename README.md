@@ -1661,3 +1661,17 @@ for (let index = 1; index <= 3; index++)
 // index++ is the third part
 // it's the updating part
 ```
+
+*Example :*
+```javascript
+for (index = 1; index <= 4; index++) {
+  console.log("Hello number " + index);
+}
+
+// output:
+// Hello number 1
+// Hello number 2
+// Hello number 3
+// Hello number 4
+```
+
