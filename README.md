@@ -1619,3 +1619,29 @@ First we stored `age` in the object and returned it.<br>
 Then we call the `calcAge` function **before** the `console.log` statement.<br>
 This ensures the function is executed, setting the `age` property with the calculated value.<br>
 Then, the `console.log` uses the updated `bio` object with the set `age`.<br>
+
+<hr>
+
+# Iteration
+
+## The for Lopp
+
+It allow us to automate repetitive tasks.<br>
+Tasks that we have to perfomr over and over again.
+
+### The for statement has three parts:
+
+* **The first part** : The initial value of a counter.
+```javascript
+for (let index = 0;) 
+// let index = 0; is the first part
+```
+*We need to use `let` variable because  the counter will be updated by the for loop*
+
+* **Second part** : is a logical condition that is evaluated before each iteration of the loop.
+```javascript
+for (let index = 0; index <= 3)
+// index <= 3 is the second part
+// it's the logical condition part
+```
+This part will be evaluated before each iteration of the loop.
