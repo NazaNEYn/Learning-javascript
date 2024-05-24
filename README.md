@@ -1674,4 +1674,80 @@ for (index = 1; index <= 4; index++) {
 // Hello number 3
 // Hello number 4
 ```
+## Looping Arrays
 
+```javascript
+for (let index = 0; index < array.length; index++) {
+    
+}
+```
+
+**How to create a new array based on the values of one original array:**
+
+Let's say we want to create a new array for `bio` array and write the types in a new array :
+
+```javascript
+const bio = [
+  "Naz",
+  "Ashrafi",
+  2024 - 1993,
+  "Learning Javascript",
+  ["Max", "Tom"],
+  false
+];
+
+for (let i = 0; i < bio.length; i++) {
+  console.log(bio[i]);
+}
+```
+
+* First we need to create a new empty array outside of the for loop.
+
+```javascript
+const bioTypes = [];
+```
+
+```javascript
+const bio = [
+  "Naz",
+  "Ashrafi",
+  2024 - 1993,
+  "Learning Javascript",
+  ["Max", "Tom"],
+  false
+];
+
+const bioTypes = [];
+
+for (let i = 0; i < bio.length; i++) {
+  console.log(bio[i]);
+}
+```
+
+* Then we go to our for loop.
+```javascript
+bioTypes[i] = typeof bio[i];
+  console.log(bioTypes);
+```
+
+We go to the same for loop because we are creating a new array based on the original one, meaning we'll have the same length for both arrays.
+
+```javascript
+const bio = [
+  "Naz",
+  "Ashrafi",
+  2024 - 1993,
+  "Learning Javascript",
+  ["Max", "Tom"],
+  false
+];
+
+const bioTypes = [];
+
+for (let i = 0; i < bio.length; i++) {
+  console.log(bio[i]);
+
+  bioTypes[i] = typeof bio[i];
+  console.log(bioTypes);
+}
+```
