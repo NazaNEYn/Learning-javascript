@@ -1755,3 +1755,29 @@ for (let i = 0; i < bio.length; i++) {
  console.log(bioTypes);
 // (6) ['string', 'string', 'number', 'string', 'object', 'boolean']
 ```
+
+### Another Way of filling an array :
+
+*Using push() Method:
+
+```javascript
+const bio = [
+  "Naz",
+  "Ashrafi",
+  2024 - 1993,
+  "Learning Javascript",
+  ["Max", "Tom"],
+  false
+];
+
+const bioTypes = [];
+
+for (let i = 0; i < bio.length; i++) {
+  console.log(bio[i]);
+
+  // using push() method
+  bioTypes.push(typeof bio[i]);
+}
+
+console.log(bioTypes);
+```
