@@ -1750,6 +1750,8 @@ for (let i = 0; i < bio.length; i++) {
   bioTypes[i] = typeof bio[i];
   // bioTypes at position i should be equal to
   // typeof bio at position i
-  console.log(bioTypes);
 }
+
+ console.log(bioTypes);
+// (6) ['string', 'string', 'number', 'string', 'object', 'boolean']
 ```
