@@ -1639,7 +1639,7 @@ for (let index = 1;)
 ```
 *We need to use `let` variable because  the counter will be updated by the for loop*
 
-* **Second part** :<br>
+* **The second part** :<br>
 is a logical condition that is evaluated before each iteration of the loop.
 ```javascript
 for (let index = 0; index <= 3)
@@ -1795,4 +1795,8 @@ for (let i = 0; i < years.length; i++) {
 console.log(ages);
 // (4) [286, 135, 27, 4]
 ```
+## continue And Break
 
+**Continue** is to exit the current iteration of the loop and continue to the next one.<br>
+
+**Break** is used for to completely terminate the whole loop.
