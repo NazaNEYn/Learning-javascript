@@ -1876,3 +1876,36 @@ The `pushUps` is a loop that was created inside the `loopSets`. So each `loopSet
  Push up 4
  Push up 5
  ```
+## The While Loop
+
+```javascript
+// for loop
+for (let pushUps = 1; pushUps <= 4; pushUps++) {
+  console.log(`Push ups ${pushUps}`);
+}
+```
+
+We need the same components as for loop.
+* We need a counter so that we can actually print the current value to the console.  
+* We need a condition so we know when to stop.
+* And we still need to increase the counter.
+
+But it works different with `while loop`. We can only specify a condition.
+
+```javacript
+while (condition) {
+  
+}
+```
+
+```javascript
+let pushUps = 1;
+while (pushUps <= 4) {
+  console.log(`Push ups ${pushUps}`);
+
+  pushUps++;
+}
+```
+
+The `while loop` is more versatile than the `for loop`. It means it can be used in a large variety of situations because it doens't need a counter
+
