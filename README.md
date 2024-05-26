@@ -1834,3 +1834,45 @@ for (let i = bio.length - 1; i >= 0; i--) {
 //  Ashrafi
 //  Naz
 ```
+
+## Creating A Loop Inside A Loop
+
+```javascript
+for (let loopSets = 1; loopSets <= 3; loopSets++) {
+  console.log(`------- Set ${loopSets}`);
+
+  for (let pushUps = 1; pushUps <= 5; pushUps++) {
+    console.log(`Push up ${pushUps}`);
+  }
+}
+```
+
+The `loopSets` loop, loops three times :
+```
+------- Set 1
+------- Set 2
+------- Set 3
+```
+
+The `pushUps` is a loop that was created inside the `loopSets`. So each `loopSets` will run 5 times.
+
+```
+------- Set 1
+ Push up 1
+ Push up 2
+ Push up 3
+ Push up 4
+ Push up 5
+ ------- Set 2
+ Push up 1
+ Push up 2
+ Push up 3
+ Push up 4
+ Push up 5
+ ------- Set 3
+ Push up 1
+ Push up 2
+ Push up 3
+ Push up 4
+ Push up 5
+ ```
