@@ -1800,3 +1800,37 @@ console.log(ages);
 **Continue** is to exit the current iteration of the loop and continue to the next one.<br>
 
 **Break** is used for to completely terminate the whole loop.
+
+## Looping Backwards
+
+Let's say we want to loop backwards this array. Looping from `['Max', 'Tom']` to `'Naz'`
+
+```javascript
+const bio = [
+  "Naz",
+  "Ashrafi",
+  2024 - 1993,
+  "Playing video games",
+  ["Max", "Tom"],
+];
+```
+
+```javascript
+const bio = [
+  "Naz",
+  "Ashrafi",
+  2024 - 1993,
+  "Playing video games",
+  ["Max", "Tom"]
+];
+
+for (let i = bio.length - 1; i >= 0; i--) {
+  console.log(bio[i]);
+}
+
+// (2) ['Max', 'Tom']
+//  Playing video 
+//  31
+//  Ashrafi
+//  Naz
+```
