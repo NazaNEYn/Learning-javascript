@@ -1915,7 +1915,7 @@ The `while loop` is more versatile than the `for loop`. It means it can be used 
 
 
 * `Math.floor()`: This function rounds a number down towards negative infinity. For positive numbers, it behaves the same as .<br>
-* `Math.trunc()` : returning the largest integer less than or equal to the argument. However, for negative numbers, it rounds down to the nearest whole number that's more negative.<br>
+* `Math.trunc()` : This function truncates the number, essentially "cutting off" the decimal part. Regardless of the sign (positive or negative). returning the largest integer less than or equal to the argument. However, for negative numbers, it rounds down to the nearest whole number that's more negative.<br>
    
 |  Number                | `Math.floor()`|                                     `Math.trunc()`  |
 | -------------         |:-------------:|                                      :-------------:|
