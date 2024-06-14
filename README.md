@@ -1907,5 +1907,15 @@ while (pushUps <= 4) {
 }
 ```
 
-The `while loop` is more versatile than the `for loop`. It means it can be used in a large variety of situations because it doens't need a counter
+The `while loop` is more versatile than the `for loop`. It means it can be used in a large variety of situations because it doens't need a counter.
 
+<hr>
+
+# `Math.floor()`vs. `Math.trunc()`  
+
+
+   
+|  Number                | `Math.floor()`|                                     `Math.trunc()`  |
+| -------------         |:-------------:|                                      :-------------:|
+| Positive              | Largest integer less than or equal to the number    | Largest integer less than or equal to the number |
+| Negative              | Nearest integer towards negative infinity           | Nearest integer towards zero |
