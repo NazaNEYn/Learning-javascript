@@ -425,6 +425,9 @@ console.log("23" / "2"); // 11.5
 
 # Truthy and Falsy Values
 
+* Truthy means the box has something inside it. It could be a toy, a book, anything!
+* Falsy means the box is completely empty.
+
 ## Falsy Values
 
 Falsy values are values that are not exactly false but will become false when we try to convert them into a boolean. <br>
